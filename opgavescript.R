@@ -19,6 +19,8 @@ median(rooms, na.rm=TRUE) # will ignore the missing values and return the number
 install.packages("tidyverse")
 library(tidyverse)
 
+# link to the screenshot: https://github.com/Digital-Methods-HASS/AU790703_Jacobsen_TerkelSylvester/blob/9d580693798c10317b609d28757c4cd13fef92d0/question4_screenshot.jpg
+
 # downloading SAFI_clean.csv
 download.file(
   "https://raw.githubusercontent.com/datacarpentry/r-socialsci/main/episodes/data/SAFI_clean.csv",
