@@ -19,8 +19,6 @@ median(rooms, na.rm=TRUE) # will ignore the missing values and return the number
 install.packages("tidyverse")
 library(tidyverse)
 
-# link to the screenshot: https://github.com/Digital-Methods-HASS/AU790703_Jacobsen_TerkelSylvester/blob/9d580693798c10317b609d28757c4cd13fef92d0/question4_screenshot.jpg
-
 # downloading SAFI_clean.csv
 download.file(
   "https://raw.githubusercontent.com/datacarpentry/r-socialsci/main/episodes/data/SAFI_clean.csv",
@@ -31,8 +29,7 @@ download.file(
 read_csv("data/SAFI_clean.csv")
 interviews <- read_csv("data/SAFI_clean.csv")
 
-# Save the screenshot as a .png image and put it in your AUID_lastname_firstname repository inside the class Github organisation (www.github.com/Digital-Methods-HASS) or equivalent. Place here the URL leading to the screenshot in your repository.
-https://github.com/Digital-Methods-HASS/AU790703_Jacobsen_TerkelSylvester/blob/b0ee8bf53ae171217ea4abc30ea16bbc8837a250/question4_screenshot.jpg
+# link to the screenshot: https://github.com/Digital-Methods-HASS/AU790703_Jacobsen_TerkelSylvester/blob/9d580693798c10317b609d28757c4cd13fef92d0/question4_screenshot.jpg
 
 # 5) Challenge: Tidy up your Danish monarchs dataset (you created last week) sufficiently so that you can load it into R as a table using the read_csv() and calculate the mean() and median() duration of their rule over time.
 
